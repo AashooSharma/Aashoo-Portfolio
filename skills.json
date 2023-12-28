@@ -11,7 +11,7 @@
   { "name": "Docker", "icon": "https://img.icons8.com/color/48/000000/docker.png" },
   { "name": "Git", "icon": "https://img.icons8.com/color/48/000000/git.png" },
   { "name": "Git BASH", "icon": "https://img.icons8.com/plasticine/48/000000/console.png" },
-  { "name": "Cybersecurity", "icon": "https://img.icons8.com/cotton/48/000000/security.png" },
+  { "name": "Cybersecurity", "icon": "https://github.com/AashooSharma/Aashoo-Portfolio/blob/6a5521e5e2ffea331b4e0871ed73945b2e9a9e73/skills_icons/cyber-security.png" },
   { "name": "Visual Studio", "icon": "https://camo.githubusercontent.com/5fa137d222dde7b69acd22c6572a065ce3656e6ffa1f5e88c1b5c7a935af3cc6/68747470733a2f2f63646e2e6a7364656c6976722e6e65742f67682f64657669636f6e732f64657669636f6e2f69636f6e732f7673636f64652f7673636f64652d6f726967696e616c2e737667" },
   { "name": "Web Development", "icon": "https://img.icons8.com/color/48/000000/web.png" },
   { "name": "Appwrite CLI", "icon": "https://img.icons8.com/external-vitaliy-gorbachev-lineal-vitaly-gorbachev/48/000000/external-appwrite-artificial-intelligence.png" },
