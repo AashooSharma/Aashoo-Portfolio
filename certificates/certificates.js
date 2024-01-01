@@ -1,0 +1,73 @@
+// certificates.js
+
+// Function to fetch certificate data from certificates.json
+async function fetchCertificatesData() {
+    try {
+        const response = await fetch("./certificates/certificates.json");
+        const certificates = await response.json();
+        return certificates;
+    } catch (error) {
+        console.error("Error fetching certificate data:", error);
+        return [];
+    }
+}
+
+// Function to display certificates on the page
+async function showCertificates() {
+    const certificatesContainer = document.getElementById("certificatesContainer");
+
+    // Fetch certificate data
+    const certificatesData = await fetchCertificatesData();
+
+    // Check if there are certificates
+    if (certificatesData.length === 0) {
+        certificatesContainer.innerHTML = "<p>No certificates available.</p>";
+        return;
+    }
+
+    // Generate HTML for each certificate
+    const certificateHTML = certificatesData.map(certificate => `
+        <div class="box tilt">
+            <img draggable="false" src="./assets/images/certificates/${certificate.image}.png" alt="certificate" />
+            <div class="content">
+                <div class="tag">
+                    <h3>${certificate.name}</h3>
+                </div>
+                <div class="details">
+                    <p><strong>Issuing Organization:</strong> ${certificate.issuingOrganization}</p>
+                    <p><strong>Issue Date:</strong> ${certificate.issueDate}</p>
+                    <p><strong>Expiration Date:</strong> ${certificate.expirationDate}</p>
+                    <p><strong>Credentials ID:</strong> ${certificate.credentialsID}</p>
+                    <p><strong>Credentials URL:</strong> <a href="${certificate.credentialsURL}" target="_blank">Link to Credentials</a></p>
+                    <p><strong>Skills:</strong> ${certificate.skills.join(", ")}</p>
+                </div>
+                <div class="btns">
+                    <a href="${certificate.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    <a href="#" class="btn" target="_blank">Download <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </div>
+    `).join('');
+
+    // Insert certificates HTML into the container
+    certificatesContainer.innerHTML = certificateHTML;
+
+    // Initialize tilt.js effect
+    VanillaTilt.init(document.querySelectorAll(".tilt"), {
+        max: 15,
+    });
+
+    // Scroll reveal animation
+    const srtop = ScrollReveal({
+        origin: 'top',
+        distance: '80px',
+        duration: 1000,
+        reset: true
+    });
+
+    // Reveal certificates with interval
+    srtop.reveal('.certificates .box', { interval: 200 });
+}
+
+// Call the function to display certificates on page load
+showCertificates();
