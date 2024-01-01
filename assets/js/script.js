@@ -208,10 +208,10 @@ async function fetchCertificates() {
 
     certificatesContainer.innerHTML = certificateHTML;
 
-    // Initialize tilt.js effect
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-      max: 15,
-    });
+    // // Initialize tilt.js effect
+    // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    //   max: 15,
+    // });
 
     // Scroll reveal animation
     const srtop = ScrollReveal({
