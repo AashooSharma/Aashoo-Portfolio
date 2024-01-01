@@ -53,72 +53,14 @@
                 <i class="fas fa-arrow-right"></i>
             </a>
         </div>
-
+fjhvhjv
     </section>
     <!-- certificates section ends -->
 
     <!-- scroll top btn -->
     <a href="#certificates" class="fas fa-angle-up" id="scroll-top"></a>
     <!-- scroll back to top -->
-<!-- certificates section starts -->
-<section class="certificates" id="certificates">
 
-  <h2 class="heading"><i class="fas fa-certificate"></i> Certificates <span>Received</span></h2>
-
-  <div class="box-container">
-
-    <div class="box tilt">
-      <img draggable="false" src="../assets/images/certificates/certificate1.jpg" alt="" />
-      <div class="content">
-        <div class="tag">
-          <h3>Certificate Title</h3>
-        </div>
-        <div class="details">
-          <p><strong>Name:</strong> Your Full Name</p>
-          <p><strong>Issuing Organization:</strong> Certification Organization</p>
-          <p><strong>Issue Date:</strong> MM/DD/YYYY</p>
-          <p><strong>Expiration Date:</strong> MM/DD/YYYY</p>
-          <p><strong>Credentials ID:</strong> XYZ123</p>
-          <p><strong>Credentials URL:</strong> <a href="#" target="_blank">Link to Credentials</a></p>
-          <p><strong>Skills:</strong> List of skills acquired</p>
-        </div>
-        <div class="btns">
-          <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-          <a href="#" class="btn" target="_blank">Download <i class="fas fa-download"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Add more certificate boxes as needed -->
-
-  </div>
-
-  <div class="viewall">
-    <a href="./certificates/" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-
-</section>
-<!-- certificates section ends -->
-
-<!-- certificates section starts -->
-<section class="certificates" id="certificates">
-
-  <h2 class="heading"><i class="fas fa-certificate"></i> Certificates <span>Received</span></h2>
-
-  <div class="box-container" id="certificatesContainer">
-    <!-- Certificate boxes will be dynamically added here using JavaScript -->
-  </div>
-
-  <div class="viewall">
-    <a href="./certificates/" class="btn"><span>View All</span>
-      <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-
-</section>
-<!-- certificates section ends -->
 
 <!-- JavaScript to fetch and display certificates -->
 <script>
@@ -144,7 +86,7 @@
 
     const certificateHTML = certificatesData.map(certificate => `
       <div class="box tilt">
-        <img draggable="false" src="./assets/images/certificates/${certificate.image}" alt="${certificate.name}" />
+        <img draggable="false" src="../assets/images/certificates/${certificate.image}" alt="${certificate.name}" width="400" height="300"/>
         <div class="content">
           <div class="tag">
             <h3>${certificate.name}</h3>
@@ -159,7 +101,7 @@
             <p><strong>Skills:</strong> ${certificate.skills.join(", ")}</p>
           </div>
           <div class="btns">
-            <a href="${certificate.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="${certificate.credentialsURL}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
             <a href="#" class="btn" target="_blank">Download <i class="fas fa-download"></i></a>
           </div>
         </div>
@@ -216,7 +158,7 @@
 
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
-    <script src="./certificates.js"></script>
+    <script src="./certificates2.js"></script>
 
 </body>
 
