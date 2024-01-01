@@ -7,7 +7,7 @@
     "credentialsID": "ABC123",
     "credentialsURL": "https://example.com/certificate1",
     "skills": ["Skill1", "Skill2"],
-    "image": "certificate1"
+    "image": "certificate1.jpg"
   },
   {
     "name": "Certificate 2",
@@ -17,7 +17,7 @@
     "credentialsID": "XYZ789",
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
-    "image": "certificate2"
+    "image": "certificate2.jpg"
   }
   
 ]
