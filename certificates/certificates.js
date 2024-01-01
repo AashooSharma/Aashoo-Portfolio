@@ -3,7 +3,7 @@
 // Function to fetch certificate data from certificates.json
 async function fetchCertificatesData() {
     try {
-        const response = await fetch("./certificates/certificates.json");
+        const response = await fetch("./certificates.json");
         const certificates = await response.json();
         return certificates;
     } catch (error) {
