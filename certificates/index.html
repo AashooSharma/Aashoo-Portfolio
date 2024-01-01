@@ -33,35 +33,36 @@
                 <li><a href="/#education">Education</a></li>
                 <li><a href="/#work">Work</a></li>
                 <li><a href="/#experience">Experience</a></li>
+                <li><a href="#certificates">Certificates</a></li> <!-- Added line for certificates -->
                 <li><a href="/#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
     <!-- navbar ends -->
 
-    <!-- certificates section starts -->
-    <section class="certificates" id="certificates">
 
-        <h2 class="heading"><i class="fas fa-certificate"></i> Certificates <span>Received</span></h2>
+<!-- certificates section starts -->
+<section class="certificates" id="certificates">
 
-        <div class="box-container" id="certificatesContainer">
-            <!-- Certificate boxes will be dynamically added here using JavaScript -->
-        </div>
+  <h2 class="heading"><i class="fas fa-certificate"></i> Certificates <span>Received</span></h2>
 
-        <div class="viewall">
-            <a href="./certificates/" class="btn"><span>View All</span>
-                <i class="fas fa-arrow-right"></i>
-            </a>
-        </div>
-fjhvhjv
-    </section>
-    <!-- certificates section ends -->
+  <div class="box-container" id="certificatesContainer">
+    <!-- Certificate boxes will be dynamically added here using JavaScript -->
+  </div>
+
+  <div class="viewall">
+    <a href="./certificates/" class="btn"><span>View All</span>
+      <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
 
     <!-- scroll top btn -->
     <a href="#certificates" class="fas fa-angle-up" id="scroll-top"></a>
     <!-- scroll back to top -->
 
-
+</section>
+<!-- certificates section ends -->
+    
 <!-- JavaScript to fetch and display certificates -->
 <script>
   async function fetchCertificates() {
@@ -110,10 +111,10 @@ fjhvhjv
 
     certificatesContainer.innerHTML = certificateHTML;
 
-    // Initialize tilt.js effect
-    VanillaTilt.init(document.querySelectorAll(".tilt"), {
-      max: 15,
-    });
+    // // Initialize tilt.js effect
+    // VanillaTilt.init(document.querySelectorAll(".tilt"), {
+    //   max: 15,
+    // });
 
     // Scroll reveal animation
     const srtop = ScrollReveal({
@@ -130,6 +131,7 @@ fjhvhjv
   // Call the function to display certificates on page load
   showCertificates();
 </script>
+
 
 
 
@@ -158,7 +160,8 @@ fjhvhjv
 
     <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
 
-    <script src="./certificates2.js"></script>
+    <!-- <script src="./certificates2.js"></script> -->
+    <!-- <script src="../assets/js/script.js"></script> -->
 
 </body>
 
