@@ -1,0 +1,20 @@
+/* Custom class for certificate box */
+.certificate-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #333; /* Adjust border color as needed */
+    padding: 20px;
+}
+
+.certificate-box .content {
+    width: 60%; /* Adjust the width of the details section */
+}
+
+.certificate-box img {
+    width: 40%; /* Adjust the width of the image */
+    height: auto;
+    max-height: 300px; /* Adjust the maximum height if needed */
+}
+
+/* Add additional styling as per your design */
