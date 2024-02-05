@@ -2,20 +2,20 @@
 [
   { "name": "Python", "icon": "skills_icons/python--v1.png" },
   { "name": "C", "icon": "skills_icons/image_search_1707114465267.png" },
-  { "name": "HTML", "icon": "skills_icons/image_search_1707124307165.png" },
+  { "name": "HTML", "icon": "skills_icons/image_search_1707124287449.png" },
   { "name": "CSS", "icon": "skills_icons/css3.png" },
-  { "name": "Bash Script", "icon": "skills_icons/image_search_1707114430683.png" },
+  { "name": "Bash Script", "icon": "skills_icons/image_search_1707125517438.png" },
   { "name": "JavaScript", "icon": "skills_icons/image_search_1707124181839.png" },
   { "name": "Networking", "icon": "skills_icons/networking-manager.png" },
-  { "name": "Linux System", "icon": "https://img.icons8.com/color/48/000000/linux--v1.png" },
-  { "name": "DevOps", "icon": "https://img.icons8.com/color/48/000000/collaboration.png" },
-  { "name": "Docker", "icon": "https://img.icons8.com/color/48/000000/docker.png" },
-  { "name": "GitHub", "icon": "skills_icons/image_search_1707114396409.png" },
+  { "name": "Linux System", "icon": "skills_icons/image_search_1707126259605.png" },
+  { "name": "DevOps", "icon": "skills_icons/image_search_1707126138552.jpg" },
+  { "name": "Docker", "icon": "skills_icons/image_search_1707126104704.png" },
+  { "name": "GitHub", "icon": "skills_icons/IMG_20240205_150015.jpg" },
   { "name": "Cybersecurity", "icon": "./skills_icons/cyber-security.png" },
   { "name": "Visual Studio", "icon": "skills_icons/image_search_1707114546251.png" },
   { "name": "Appwrite CLI", "icon": "skills_icons/image_search_1707114604527.png" },
   { "name": "Kubernetes", "icon": "skills_icons/image_search_1707124352976.png" },
   { "name": "GitHub Actions", "icon": "skills_icons/image_search_1707123557882.png" },
   { "name": "Jenkins", "icon": "skills_icons/image_search_1707124378938.png" },
-  { "name": "AWS EC2", "icon": "skills_icons/image_search_1707124436293.png" }
+  { "name": "AWS EC2", "icon": "skills_icons/image_search_1707124408068.png" }
 ]
