@@ -7,7 +7,7 @@
     "credentialsID": "ABC123",
     "credentialsURL": "https://example.com/certificate1",
     "skills": ["Skill1", "Skill2"],
-    "image": "certificate1.jpg"
+    "image": "certificate_1.jpg"
   },
   {
     "name": "Certificate 2",
@@ -17,7 +17,136 @@
     "credentialsID": "XYZ789",
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
-    "image": "certificate2.jpg"
+    "image": "certificate_2.jpg"
+  },
+  {
+    "name": "Certificate 3",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_3.jpg"
+  },
+  {
+    "name": "Certificate 4",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_4.jpg"
+  },
+  {
+    "name": "Certificate 5",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_5.jpg"
+  },
+  {
+    "name": "Certificate 6",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_6.jpg"
+  },
+  {
+    "name": "Certificate 7",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_7.jpg"
+  },
+  {
+    "name": "Certificate 8",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_8.jpg"
+  },
+  {
+    "name": "Certificate 9",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_9.jpg"
+  },
+  {
+    "name": "Certificate 10",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_10.jpg"
+  },
+  {
+    "name": "Certificate 11",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_11.jpg"
+  },
+  {
+    "name": "Certificate 12",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_12.jpg"
+  },
+  {
+    "name": "Certificate 13",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_13.jpg"
+  },
+  {
+    "name": "Certificate 14",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_14.jpg"
+  },
+  {
+    "name": "Certificate 15",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_15.jpg"
   }
-  
-]
+    ]
