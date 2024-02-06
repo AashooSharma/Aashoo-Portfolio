@@ -42,8 +42,8 @@ async function showCertificates() {
                     <p><strong>Skills:</strong> ${certificate.skills.join(", ")}</p>
                 </div>
                 <div class="btns">
-                    <a href="${certificate.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-                    <a href="#" class="btn" target="_blank">Download <i class="fas fa-download"></i></a>
+                    <a href="./assets/images/certificates/${certificate.image}.png" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                    
                 </div>
             </div>
         </div>
