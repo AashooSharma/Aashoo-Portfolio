@@ -147,6 +147,6 @@
     "credentialsID": "XYZ789",
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
-    "image": "certificate_15.jpg"
+    "image": "certificate_15.png"
   }
     ]
