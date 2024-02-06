@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-040RF1BR83"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-040RF1BR83');
+</script>-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="https://media.discordapp.net/attachments/807677109547696140/925662167896850452/Ashacker_copy_500x500.jpg" type="image/x-icon" />
+
+    <style>
+    @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+
+    *{
+        color: white;
+      }
+      a{
+        text-decoration: none;
+        text-align: center;
+      }
+      i{
+        padding: 50px;
+        
+      }
+      
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #2b2b2b;
+        
+      }
+      h1{
+        text-align: center;
+      }
+      h2{
+        color: #56bcff;
+        text-align: center;
+      }
+      .about{
+        
+        top: 10px;
+        left: 45%;
+        text-align: center;
+      }
+      p{
+        color: #37eda2;
+      }
+      </style>
+    <style type="text/css" media="all">
+       *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            border:none;
+            font-family: 'Poppins', sans-serif;
+          }
+
+          html{
+              font-size:62.5%;
+          }
+
+          .all{
+            width:100%;
+            min-height:100vh;
+            background-color: #020303;
+          }   
+
+          .all>h3{
+              position:absolute;
+              bottom:5%;
+              left:50%;
+              transform: translateX(-50%);
+
+              color:#fefefe;
+              font-size:2rem;
+              font-weight:100;
+              letter-spacing: 0.2rem;
+
+          }
+
+          .container{
+              min-height:3vh;
+              display:flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          .container2{
+              min-height:5vh;
+              display:flex;
+              align-items: center;
+              justify-content: center;
+          }
+
+          
+
+          .btn-1{
+              height:50px;
+              width:220px;
+            margin: 60px ;
+              
+              text-transform:uppercase;
+              letter-spacing: 0.2rem;
+              font-size:1.7rem;
+              font-weight:800;
+              font-style:italic;
+            line-height:20px;
+              cursor:pointer;
+              border:2px solid #fefefe;
+              background-color: #ffffff00;
+              color:#fefefe;
+
+              position:relative;
+
+              transition: .3s linear;
+            
+          }
+
+
+          .btn-1::before{
+              content:'';
+              position:absolute;
+              top:0;
+              right:8%;
+              transform: translateY(-50%) ;
+              background-color:#020303;
+              height:4px;
+              width:15px;
+              transition: .3s linear;
+              
+
+          }
+
+          .btn-1::after{
+              content:'';
+              position:absolute;
+              bottom:0;
+              left:8%;
+              transform: translateY(50%);
+              background-color:#020303;
+              height:4px;
+              width:15px;
+              transition: .3s linear;
+              
+          }
+
+          /* HOVER */
+
+          .btn-1:hover{
+              color:#ec1111;
+             
+              transform:scale(1.2);
+              box-shadow:0 0 35px #ec1111;
+          }
+
+
+          .btn-1:hover::before{
+              
+              right:86%;
+
+          }
+
+          .btn-1:hover::after{
+             
+              left:86%;
+          }
+          .btn-shadom-1:hover{
+            color: #fd931f;
+            box-shadow:0 0 35px #fd931f;
+          }
+          .btn-shadom-2:hover{
+            color: #1174ec;
+            box-shadow:0 0 35px #1174ec;
+          }
+          .btn-shadom-3:hover{
+            color: #ec1111;
+            box-shadow:0 0 35px #ec1111;
+          }
+         .btn-shadom-4:hover{
+            color: #f22877;
+            box-shadow:0 0 35px #f22877;
+          }
+          
+.myheadline{
+  font-size: 20px;
+}
+.highlights1{
+  color: #e7f715;
+  background: #ffffff2e;
+  text-decoration: none;
+}
+.highlights2{
+  color: red;
+  /*background: #ffffff2e;*/
+}
+.highlights1:hover{
+  background: #ff4b18;
+  color: white;
+  box-shadow:0 0 35px #fedb17;
+}
+.highlights2:hover{
+  color: #fff;
+  background: #e81803;
+  box-shadow:0 0 35px #ec1111;
+}
+.myphoto{
+  max-height: 40vh;
+  max-width: 40vh;
+  
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  
+}
+.myphoto img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 10px solid #ff1111;
+  position: center;
+  height: 30vh;
+  
+  box-shadow:0 0 200px #101ae6;
+  border-radius: 50%;
+  
+}
+    </style>
+
+  <style type="text/css" media="all">
+      body{
+  background:#1a293e;
+  
+  
+}
+.container{
+  display: flex;
+   flex-direction: row;
+}
+.container div:first-child(1){
+  background-color:#ccffcc;
+	flex: 1;
+  height:100px;
+  width:100px;
+	text-align: center;
+  
+  
+}
+.first {
+  -webkit-flex: 1;
+          flex: 1;
+  
+}
+.second {
+  -webkit-flex: 2;
+          flex: 2;
+ 
+}
+.third {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
+
+
+
+
+
+#loader-wrapper{
+    position: fixed;
+    top: 40px;
+    /*left:24vh;*/
+    left:50%;
+    width: 300px;
+    height: 300px;
+   margin-left:30px;
+   margin-top: 5vh;
+}
+#loader {
+    display: block;
+    position: relative;
+    /*left: 50%;*/
+    top: 50%;
+    width: 100%;
+    height: 100%;
+    margin: -175px 0 0 -175px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-top-color: #4db8ff;
+  border-bottom-color: #b3e0ff;
+  border-right-color: #66c2ff;
+  border-left-color: #80ccff;
+  box-shadow: 0 0 15px #2187e7;
+ 
+    -webkit-animation: spin 30s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 30s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+#loader1:before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: 70px;
+    right: 70px;
+    bottom: 70px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-color: #4398ba;
+ 
+    border-style:dotted;
+  
+    -webkit-animation: spin 18s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 18s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+#loader1:after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    left: 55px;
+    right: 55px;
+    bottom: 55px;
+    border-radius: 50%;
+    border-color: #59c1eb;
+   border-width:5px;	
+    border-style:double dashed solid dotted ;
+  box-shadow: 0 0 40px #2187e7;
+    -webkit-animation: spin 60s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 60s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+
+ 
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-color: #1d5ca9;
+ 
+    border-style:dotted;
+  
+    -webkit-animation: spin 18s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 18s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    right: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    border-color: #429bc0;
+   border-width:5px;	
+    border-style:dotted solid;
+    -webkit-animation: spin 60s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+      animation: spin 60s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+
+
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #228DFF, 0 0 70px #228DFF, 0 0 80px #228DFF, 0 0 100px #228DFF, 0 0 150px #228DFF;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+  }
+}
+.myphoto{
+  width: 145px;
+  height: 145px;
+  margin-left: -97px;
+  margin-top: -73px;
+  box-shadow: 0 0 30px #56ff74;
+}
+.bigbox{
+  position: relative;
+  margin-top: 50vh;
+}
+    </style>
+
+</head>
+<body>
+    
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<div class="all">
+  <div class="myheadline">
+    
+  
+  <h1>Welcome</h1>
+  <!--<div class="myphoto">
+    <img src="1653255903681.png" alt="Aashoo Sharma Portfolio" ></div>-->
+    <div id="loader-wrapper">
+            <div id="loader"><div id="loader1"> 
+              </div> 
+              </div>
+               <img class="myphoto" src="1653255903681.png" alt="Aashoo Sharma" />
+        <!--<p><a  onclick="lFunction()">ON</a><a onclick="rFunction()">/OFF</a></p>-->
+       
+</div>
+<div class="bigbox">
+  
+
+    <h2>I'm Aashoo Sharma</h2>
+    <div class="about">
+      <p>
+        Aashoo is Programmer,web developer!
+        <br />
+        <!--My Username <span class="highlights2">AsHacker</span>-->
+<br />
+        Aashoo Sharma Electronics Engineering student of Government Polytechnic College Dholpur, Rajsthan, India.
+        Aashoo is Genius Person.
+        <br /> <br />
+        My YouTube Channel Name 
+        <br />
+<a href="https://youtube.com/channel/UCx5DNecpARSa6PSJ_u_xvKw" class="highlights1">CSH Education</a>
+      </p>
+      </div>
+    </div>
+    
+
+  <div class="container2">
+            <a href="https://youtube.com/channel/UCx5DNecpARSa6PSJ_u_xvKw" class="btn-1 btn-shadom-3">
+              YouTube</a>
+            </div>
+  <div class="container2">
+            <a href="https://www.linkedin.com/in/aashoo-sharma-60b502203" class="btn-1 btn-shadom-2">
+              LinkedIn</a>
+        </div>
+  <div class="container2">
+            <a href="https://www.instagram.com/as__hacker/" class="btn-1 btn-shadom-4">
+              Instagram</a>
+        </div>
+    <form action="./home.html" method="get" accept-charset="utf-8">
+      
+    
+        <div class="container">
+            <button class="btn-1 btn-shadom-1">Explore Me</button>
+        </div>
+    </form>
+    </div>
+  </div>
+    
+</body>
+  </html>
