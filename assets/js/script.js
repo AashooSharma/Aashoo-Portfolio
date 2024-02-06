@@ -300,7 +300,7 @@ showCertificates();
 // pre loader end
 
 // disable developer mode
-/*
+
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
@@ -317,7 +317,7 @@ document.onkeydown = function (e) {
     if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
         return false;
     }
-}*/
+}
 
 // <!--Start of Tawk.to Script-->
 {/* <script type="text/javascript"> */}
