@@ -263,7 +263,7 @@ async function showCertificates() {
                     <p><strong>Credentials URL:</strong> <a href="${certificate.credentialsURL}" target="_blank">Link to Credentials</a></p>
                     <p><strong>Skills:</strong> ${certificate.skills.join(", ")}</p>
                     <div class="btns">
-                        <a href="./assets/images/certificates/${certificate.image}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+                        <a href="./assets/images/certificates/${certificate.image}" style="display: inline-block; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;" target="_blank"><i class="fas fa-eye"></i> View</a>
                         
                     </div>
                 </div>
