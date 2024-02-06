@@ -1,14 +1,14 @@
 
 [
   { "name": "Python", "icon": "skills_icons/python--v1.png" },
-  { "name": "C", "icon": "skills_icons/image_search_1707114465267.png" },
-  { "name": "HTML", "icon": "skills_icons/image_search_1707124287449.png" },
+  { "name": "C", "icon": "skills_icons/1707244560452.png" },
+  { "name": "HTML", "icon": "skills_icons/1707244506816.png" },
   { "name": "CSS", "icon": "skills_icons/css3.png" },
-  { "name": "Bash Script", "icon": "skills_icons/image_search_1707125517438.png" },
+  { "name": "Bash Script", "icon": "skills_icons/1707244839525.png" },
   { "name": "JavaScript", "icon": "skills_icons/image_search_1707124181839.png" },
   { "name": "Networking", "icon": "skills_icons/networking-manager.png" },
   { "name": "Linux System", "icon": "skills_icons/image_search_1707126259605.png" },
-  { "name": "DevOps", "icon": "skills_icons/image_search_1707126138552.jpg" },
+  { "name": "DevOps", "icon": "skills_icons/1707244786948.png" },
   { "name": "Docker", "icon": "skills_icons/image_search_1707126104704.png" },
   { "name": "GitHub", "icon": "skills_icons/IMG_20240205_150015.jpg" },
   { "name": "Cybersecurity", "icon": "./skills_icons/cyber-security.png" },
