@@ -38,6 +38,7 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
+    /*
     $("#contact-form").submit(function (event) {
         emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
@@ -52,6 +53,34 @@ $(document).ready(function () {
             });
         event.preventDefault();
     });
+    */
+    $("#contact-form").submit(function (event) {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+
+    // Initialize EmailJS with your public key
+    emailjs.init("nw75MgpVyQx8TZhE3");
+
+    // Extract form data
+    let formData = {
+        name: $("#contact-form input[name='name']").val(),
+        email: $("#contact-form input[name='email']").val(),
+        phone: $("#contact-form input[name='phone']").val(),
+        message: $("#contact-form textarea[name='message']").val()
+    };
+
+    // Send the form data using EmailJS
+    emailjs.send("service_zciev9b&$@_", "template_98rdztt", formData)
+        .then(function (response) {
+            console.log('SUCCESS!', response.status, response.text);
+            document.getElementById("contact-form").reset();
+            alert("Form Submitted Successfully");
+        }, function (error) {
+            console.log('FAILED...', error);
+            alert("Form Submission Failed! Try Again");
+        });
+});
+
     // <!-- emailjs to mail contact form data -->
 
 });
