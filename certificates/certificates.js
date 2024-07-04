@@ -54,7 +54,7 @@ async function showCertificates() {
 
     // Initialize tilt.js effect
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
-        max: 15,
+        max: 50,
     });
 
     // Scroll reveal animation
