@@ -1,24 +1,25 @@
 [
   {
-    "name": "Certificate 1",
-    "issuingOrganization": "Organization 1",
-    "issueDate": "2022-01-01",
-    "expirationDate": "2023-01-01",
-    "credentialsID": "ABC123",
-    "credentialsURL": "https://example.com/certificate1",
-    "skills": ["Skill1", "Skill2"],
+    "name": "Be A White Hat Hacker and Pen Tester",
+    "issuingOrganization": "Eduonix Learning Solutions",
+    "issueDate": "2022-07-10",
+    "expirationDate": null,
+    "credentialsID": "5f3c1a0719",
+    "credentialsURL": "https://www.eduonix.com/certificate/5f3c1a0719",
+    "skills": ["White Hat Hacking", "Penetration Testing"],
     "image": "certificate_1.jpg"
   },
   {
-    "name": "Certificate 2",
-    "issuingOrganization": "Organization 2",
-    "issueDate": "2022-02-01",
-    "expirationDate": "2023-02-01",
-    "credentialsID": "XYZ789",
-    "credentialsURL": "https://example.com/certificate2",
-    "skills": ["Skill3", "Skill4"],
+    "name": "Cyber Security Foundation",
+    "issuingOrganization": "CertiProf",
+    "issueDate": "2021-01-14",
+    "expirationDate": "2023-01-14",
+    "credentialsID": "55146766",
+    "credentialsURL": "https://www.certiprof.com/certificates/55146766",
+    "skills": ["Cyber Security", "Cyber Security Foundation", "CyBOK"],
     "image": "certificate_2.jpg"
   },
+  
   {
     "name": "Certificate 3",
     "issuingOrganization": "Organization 2",
