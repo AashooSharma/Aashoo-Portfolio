@@ -34,6 +34,7 @@ async function showCertificates() {
                     <h3>${certificate.name}</h3>
                 </div>
                 <div class="details">
+                    <p><strong>Name:</strong> ${certificate.fullName}</p>
                     <p><strong>Issuing Organization:</strong> ${certificate.issuingOrganization}</p>
                     <p><strong>Issue Date:</strong> ${certificate.issueDate}</p>
                     <p><strong>Expiration Date:</strong> ${certificate.expirationDate}</p>
