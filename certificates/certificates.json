@@ -1,16 +1,18 @@
 [
   {
-    "name": "Be A White Hat Hacker and Pen Tester",
+    "name": "Certificate 1",
+    "fullName": "Be A White Hat Hacker and Pen Tester",
     "issuingOrganization": "Eduonix Learning Solutions",
     "issueDate": "2022-07-10",
-    "expirationDate": null,
-    "credentialsID": "5f3c1a0719",
-    "credentialsURL": "https://www.eduonix.com/certificate/5f3c1a0719",
-    "skills": ["White Hat Hacking", "Penetration Testing"],
+    "expirationDate": "",
+    "credentialsID": "",
+    "credentialsURL": "https://www.eduonix.com/certificate/5f3c1a07179",
+    "skills": ["White Hat Hacking", "Pen Testing", "Cyber Security"],
     "image": "certificate_1.jpg"
   },
   {
-    "name": "Cyber Security Foundation",
+    "name": "Certificate 2",
+    "fullName": "Cyber Security Foundation",
     "issuingOrganization": "CertiProf",
     "issueDate": "2021-01-14",
     "expirationDate": "2023-01-14",
