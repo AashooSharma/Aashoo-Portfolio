@@ -191,11 +191,11 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_17.png",
-    "category": "other"
+    "category": "cybersecurity"
   },
 
   {
-    "name": "Certificate 17",
+    "name": "Certificate 18",
     "issuingOrganization": "Organization 2",
     "issueDate": "2022-02-01",
     "expirationDate": "2023-02-01",
@@ -207,7 +207,7 @@
   },
 
   {
-    "name": "Certificate 17",
+    "name": "Certificate 19",
     "issuingOrganization": "Organization 2",
     "issueDate": "2022-02-01",
     "expirationDate": "2023-02-01",
