@@ -216,5 +216,38 @@
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_19.jpg",
     "category": "devops"
+  },
+{
+    "name": "Certificate 20",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_20.jpg",
+    "category": "cybersecurity"
+  },
+{
+    "name": "Certificate 21",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_21.jpg",
+    "category": "other"
+  },
+{
+    "name": "Certificate 22",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_22.jpg",
+    "category": "devops"
   }
 ]
