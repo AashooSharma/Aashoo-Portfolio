@@ -46,14 +46,21 @@
 
   <h2 class="heading"><i class="fas fa-certificate"></i> Certificates <span>Received</span></h2>
 
-  
   <div id="filters" class="button-group">
+    <button class="btn is-checked" data-filter="*">All Certificates</button>
+    <button class="btn" data-filter=".devops">DevOps Certificates</button>
+    <button class="btn" data-filter=".iot">IoT Certificates</button>
+    <button class="btn" data-filter=".cybersecurity">CyberSecurity Certificates</button>
+    <button class="btn" data-filter=".other">Other Certificates</button>
+  </div>
+    
+  <!--<div id="filters" class="button-group">
     <button class="btn is-checked" data-filter="*">All Certificates</button>
     <button class="btn" data-filter=".mern">DevOps Certificates</button>
     <button class="btn" data-filter=".lamp">IOT Certificates</button>
     <button class="btn" data-filter=".android">CyberSecurity Certificates</button>
     <button class="btn" data-filter=".basicweb">Basic Certificates</button>
-  </div>
+  </div>-->
 
   <div class="box-container" id="certificatesContainer">
     <!-- Certificate boxes will be dynamically added here using JavaScript -->
