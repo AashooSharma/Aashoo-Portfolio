@@ -72,16 +72,17 @@
     "category": "android development"
 },
   {
-    "name": "Certificate 7",
-    "issuingOrganization": "Organization 2",
-    "issueDate": "2022-02-01",
-    "expirationDate": "2023-02-01",
-    "credentialsID": "XYZ789",
-    "credentialsURL": "https://example.com/certificate2",
-    "skills": ["Skill3", "Skill4"],
-    "image": "certificate_7.jpg",
-    "category": "other"
-  },
+  "name": "Certificate 7",
+  "fullName": "Introduction to Ethical Hacking in Hindi",
+  "issuingOrganization": "Great Learning Academy",
+  "issueDate": "2022-05-01",
+  "expirationDate": "",
+  "credentialsID": "",
+  "credentialsURL": "https://verify.mygreatlearning.com/LGPPGVJx",
+  "skills": ["Ethical Hacking", "Cybersecurity"],
+  "image": "certificate_7.jpg",
+  "category": "cybersecurity"
+},
   {
     "name": "Certificate 8",
     "issuingOrganization": "Organization 2",
@@ -91,7 +92,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_8.jpg",
-    "category": "other"
+    "category": "cybersecurity"
   },
   {
     "name": "Certificate 9",
@@ -135,7 +136,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_12.jpg",
-    "category": "other"
+    "category": "iot"
   },
   {
     "name": "Certificate 13",
@@ -179,7 +180,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_16.png",
-    "category": "other"
+    "category": "iot"
   },
   {
     "name": "Certificate 17",
@@ -191,5 +192,29 @@
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_17.png",
     "category": "other"
+  },
+
+  {
+    "name": "Certificate 17",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_18.jpg",
+    "category": "other"
+  },
+
+  {
+    "name": "Certificate 17",
+    "issuingOrganization": "Organization 2",
+    "issueDate": "2022-02-01",
+    "expirationDate": "2023-02-01",
+    "credentialsID": "XYZ789",
+    "credentialsURL": "https://example.com/certificate2",
+    "skills": ["Skill3", "Skill4"],
+    "image": "certificate_19.jpg",
+    "category": "devops"
   }
-    ]
+]
