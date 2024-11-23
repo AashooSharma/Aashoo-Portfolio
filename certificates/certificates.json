@@ -8,7 +8,8 @@
     "credentialsID": "",
     "credentialsURL": "https://www.eduonix.com/certificate/5f3c1a07179",
     "skills": ["White Hat Hacking", "Pen Testing", "Cyber Security"],
-    "image": "certificate_1.jpg"
+    "image": "certificate_1.jpg",
+    "category": "cybersecurity"
   },
   {
     "name": "Certificate 2",
