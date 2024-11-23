@@ -21,6 +21,7 @@
     "credentialsURL": "https://www.certiprof.com/certificates/55146766",
     "skills": ["Cyber Security", "Cyber Security Foundation", "CyBOK"],
     "image": "certificate_2.jpg"
+    "category": "cybersecurity"
   },
   
   {
@@ -32,6 +33,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_3.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 4",
@@ -42,6 +44,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_4.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 5",
@@ -52,6 +55,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_5.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 6",
@@ -62,6 +66,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_6.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 7",
@@ -72,6 +77,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_7.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 8",
@@ -82,6 +88,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_8.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 9",
@@ -92,6 +99,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_9.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 10",
@@ -102,6 +110,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_10.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 11",
@@ -112,6 +121,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_11.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 12",
@@ -122,6 +132,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_12.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 13",
@@ -132,6 +143,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_13.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 14",
@@ -142,6 +154,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_14.jpg"
+    "category": "other"
   },
   {
     "name": "Certificate 15",
@@ -152,6 +165,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_15.png"
+    "category": "other"
   },
   {
     "name": "Certificate 16",
@@ -162,6 +176,7 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_16.png"
+    "category": "other"
   },
   {
     "name": "Certificate 17",
@@ -172,5 +187,6 @@
     "credentialsURL": "https://example.com/certificate2",
     "skills": ["Skill3", "Skill4"],
     "image": "certificate_17.png"
+    "category": "other"
   }
     ]
