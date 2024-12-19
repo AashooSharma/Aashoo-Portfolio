@@ -1,7 +1,7 @@
 [
   {
     "name": "VS Code Setup with Remotely Access for Multiple Users",
-    "desc": "VS Code Setup with Remotely Access for Multiple Users",
+    "desc": "Automated deployment of a Node.js TODO Web App to AWS EC2 using Terraform and GitHub Actions.",
     "image": "vs_code_deployment_remotely",
     "category": "devops",
     "links": {
@@ -9,27 +9,23 @@
       "code": "https://github.com/AashooSharma/my-vs-code-server-setup"
     }
   },
-
   {
     "name": "Strapi Application Setup on Raspberry Pi (Production Level)",
-    "desc": "Ubuntu 20 on Raspberry Pi setup, Port Forwarding setup on Router, DDNS setup, Node.js 18 Installation setup, Strapi Application Project setup, PM2 installation and integration setup, Nginx Configuration setup, Firewall Configuration setup.",
+    "desc": "Setup Ubuntu 20 on Raspberry Pi, DDNS, Node.js 18, Strapi, PM2, Nginx, and Firewall.",
     "image": "strapi_deployment",
     "category": "devops",
     "links": {
-      "view": "#",
+      "view": "https://lnkd.in/gAN4vu_H",
       "code": "#"
     }
   },
-  
-  
-  
   {
     "name": "Home Appliances Control by Mobile/Laptop",
     "desc": "Remote control system using NodeMCU to control home appliances via mobile or laptop.",
     "image": "home_automation",
     "category": "iot",
     "links": {
-      "view": "#",
+      "view": "https://lnkd.in/gAN4vu_H",
       "code": "#"
     }
   },
@@ -39,11 +35,10 @@
     "image": "hr_telegram_bot",
     "category": "bots",
     "links": {
-      "view": "#",
+      "view": "https://lnkd.in/gAN4vu_H",
       "code": "#"
     }
   },
-  
   {
     "name": "Deployments of React Native Based Android and IOS Application with POC",
     "desc": "Deployments of React Native Based Android and IOS Application with POC",
@@ -53,7 +48,155 @@
       "view": "https://github.com/AashooSharmaTech/my-react-native-app",
       "code": "https://github.com/AashooSharmaTech/my-react-native-app"
     }
+  },
+  {
+    "name": "Automated Cloud Deployment with Terraform & GitHub Actions",
+    "desc": "Automated deployment of a Node.js TODO Web App to AWS EC2 using Terraform and GitHub Actions.",
+    "image": "terraform_github_actions",
+    "category": "devops",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Face Detection Attendance System with Raspberry Pi and OpenCV",
+    "desc": "Developed an automated face detection attendance system using OpenCV on Raspberry Pi.",
+    "image": "face_detection_attendance",
+    "category": "iot",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Interactive Portfolio Web Page with 3D Drone Model Integration",
+    "desc": "Dynamic portfolio webpage showcasing skills, projects, and social media profiles with a 3D drone.",
+    "image": "interactive_portfolio_3d_drone",
+    "category": "web",
+    "links": {
+      "view": "https://aashoo.netlify.app/",
+      "code": "#"
+    }
+  },
+  {
+    "name": "AWS CDK Deployment - Python Project And Typescript Project",
+    "desc": "Developed and deployed an AWS CDK application using TypeScript for IaC and CI/CD with GitHub Actions.",
+    "image": "aws_cdk_deployment",
+    "category": "devops",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Hindi Dubber is a Python Tool",
+    "desc": "Python tool that converts English videos into Hindi-dubbed versions effortlessly.",
+    "image": "hindi_dubber_tool",
+    "category": "python",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Smart Telegram Userbot",
+    "desc": "Smart Telegram Userbot for streamlining tasks, providing information, and enhancing Telegram chats.",
+    "image": "smart_telegram_userbot",
+    "category": "bots",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Wi-Fi Network Scanner Tool",
+    "desc": "Scan Wi-Fi networks for connected devices and display their IP addresses and open ports.",
+    "image": "wifi_network_scanner_tool",
+    "category": "tools",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Showcasing 30+ IoT Projects in STEAM Lab",
+    "desc": "30+ IoT projects showcased in the STEAM Lab to inspire students with practical tech applications.",
+    "image": "showcasing_30_iot_projects",
+    "category": "iot",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "GitHub Actions With Docker Deployment For Node Js server",
+    "desc": "GitHub Actions pipeline with Docker deployment for a Node.js server.",
+    "image": "github_actions_docker_deployment",
+    "category": "devops",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Commands Practice Tool",
+    "desc": "Practice commands from DevOps, Ethical Hacking, and basic terminal commands with a speed tracker.",
+    "image": "commands_practice_tool",
+    "category": "tools",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Learning Shell Scripting Tool",
+    "desc": "Learn Shell Scripting using a command-line tool for hands-on practice.",
+    "image": "learning_shell_scripting_tool",
+    "category": "programming",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "DevOps Basic Learning Path",
+    "desc": "DevOps basic learning path roadmap GitHub repository for beginners.",
+    "image": "devops_basic_learning_path",
+    "category": "devops",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "C Programs Learning",
+    "desc": "Collection of basic C programs for learning and practice.",
+    "image": "c_programs_learning",
+    "category": "programming",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Encryption and Decryption Message Tool",
+    "desc": "Python tool for encryption and decryption of messages without using any external libraries.",
+    "image": "encryption_decryption_tool",
+    "category": "python",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
+  },
+  {
+    "name": "Logo Setup in Shortcut Command",
+    "desc": "Create a shortcut command to display your logo using shell scripting.",
+    "image": "logo_setup_shortcut_command",
+    "category": "tools",
+    "links": {
+      "view": "https://lnkd.in/gAN4vu_H",
+      "code": "#"
+    }
   }
-  
-  
 ]
