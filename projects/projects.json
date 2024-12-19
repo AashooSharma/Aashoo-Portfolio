@@ -3,7 +3,7 @@
     "name": "VS Code Setup with Remotely Access for Multiple Users",
     "desc": "VS Code Setup with Remotely Access for Multiple Users",
     "image": "vs_code_deployment_remotely",
-    "category": "android",
+    "category": "devops",
     "links": {
       "view": "https://github.com/AashooSharma/my-vs-code-server-setup",
       "code": "https://github.com/AashooSharma/my-vs-code-server-setup"
@@ -14,7 +14,7 @@
     "name": "Strapi Application Setup on Raspberry Pi (Production Level)",
     "desc": "Ubuntu 20 on Raspberry Pi setup, Port Forwarding setup on Router, DDNS setup, Node.js 18 Installation setup, Strapi Application Project setup, PM2 installation and integration setup, Nginx Configuration setup, Firewall Configuration setup.",
     "image": "strapi_deployment",
-    "category": "mern",
+    "category": "devops",
     "links": {
       "view": "#",
       "code": "#"
@@ -27,7 +27,7 @@
     "name": "Home Appliances Control by Mobile/Laptop",
     "desc": "Remote control system using NodeMCU to control home appliances via mobile or laptop.",
     "image": "home_automation",
-    "category": "lamp",
+    "category": "iot",
     "links": {
       "view": "#",
       "code": "#"
@@ -37,7 +37,7 @@
     "name": "HR manager Telegram bot Project",
     "desc": "HR manager Telegram bot Project",
     "image": "hr_telegram_bot",
-    "category": "basicweb",
+    "category": "bots",
     "links": {
       "view": "#",
       "code": "#"
@@ -48,7 +48,7 @@
     "name": "Deployments of React Native Based Android and IOS Application with POC",
     "desc": "Deployments of React Native Based Android and IOS Application with POC",
     "image": "react_native_deployment",
-    "category": "mern",
+    "category": "devops",
     "links": {
       "view": "https://github.com/AashooSharmaTech/my-react-native-app",
       "code": "https://github.com/AashooSharmaTech/my-react-native-app"
