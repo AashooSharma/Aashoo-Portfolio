@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Submission - Sci-Fi HUD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
+    <div class="hud-container">
+        <h1 class="hud-title">🚀 Sci-Fi Project Submission</h1>
+
+        <!-- Project Title -->
+        <label for="title">Project Title:</label>
+        <input type="text" id="title" placeholder="Enter project title">
+
+        <!-- Project Description -->
+        <label for="description">Description:</label>
+        <textarea id="description" placeholder="Enter project description"></textarea>
+
+        <!-- Start & End Date -->
+        <div class="date-container">
+            <label for="startDate">Start Date:</label>
+            <input type="month" id="startDate">
+
+            <label for="endDate">End Date:</label>
+            <input type="month" id="endDate">
+            <input type="checkbox" id="currentProject" onclick="toggleEndDate()"> Ongoing
+        </div>
+
+        <!-- Image Paths -->
+        <div class="image-container">
+            <label>Project Images:</label>
+            <button onclick="openPopup('imagePopup')">📷 Add Image Path</button>
+            <div id="imagePaths" class="display-box"></div>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills-container">
+            <label>Required Skills:</label>
+            <button onclick="openPopup('skillsPopup')">🛠️ Select Skills</button>
+            <div id="skillsList" class="display-box"></div>
+        </div>
+
+        <!-- Demo URL & GitHub -->
+        <label for="demo_url">Demo URL:</label>
+        <input type="url" id="demo_url" placeholder="Enter demo URL">
+
+        <label for="github_repo">GitHub Repo:</label>
+        <input type="url" id="github_repo" placeholder="Enter GitHub Repo URL">
+
+        <!-- Submit Button -->
+        <button class="submit-btn" onclick="submitProject()">🚀 Submit Project</button>
+    </div>
+
+    <!-- Skills Pop-Up -->
+    <div id="skillsPopup" class="popup">
+        <div class="popup-content">
+            <h2>Select Skills</h2>
+            <input type="text" id="skillInput" placeholder="Enter skill">
+            <button onclick="addSkill()">➕ Add</button>
+            <ul id="skillsListPopup"></ul>
+            <button onclick="closePopup('skillsPopup')">✅ Done</button>
+        </div>
+    </div>
+
+    <!-- Image Path Pop-Up -->
+    <div id="imagePopup" class="popup">
+        <div class="popup-content">
+            <h2>Add Image Path</h2>
+            <input type="text" id="imagePathInput" placeholder="Enter Image URL" oninput="showImagePreview()">
+            <button onclick="addImagePath()">➕ Add</button>
+            <ul id="imagePathsPopup"></ul>
+
+            <!-- Live Image Preview -->
+            <img id="imagePreview" style="display: none; width: 150px; height: auto; margin-top: 10px; border: 2px solid #0ff;">
+
+            <button onclick="closePopup('imagePopup')">✅ Done</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
