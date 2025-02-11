@@ -4,7 +4,9 @@
         "description": "My new project 1",
         "start_date": "2025-02",
         "end_date": "2026-01",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/3.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/3.jpg"
+        ],
         "skills": ["Python", "Machine Learning", "Cybersecurity", "DevOps", "AWS", "Jenkins"],
         "demo_url": "https://www.youtube.com/c/cshEducation",
         "github_repo": "https://github.com/aashoosharma"
@@ -14,7 +16,9 @@
         "description": "An AI-powered chatbot for customer support.",
         "start_date": "2024-08",
         "end_date": "2025-03",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/4.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/4.jpg"
+        ],
         "skills": ["Python", "NLP", "TensorFlow", "Flask", "Docker"],
         "demo_url": "https://chatbot.example.com",
         "github_repo": "https://github.com/aashoosharma/ai-chatbot"
@@ -24,7 +28,9 @@
         "description": "A smart home system using IoT and Raspberry Pi.",
         "start_date": "2024-07",
         "end_date": "2024-12",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/5.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/5.jpg"
+        ],
         "skills": ["IoT", "Raspberry Pi", "Python", "MQTT"],
         "demo_url": "https://smarthome.example.com",
         "github_repo": "https://github.com/aashoosharma/iot-smarthome"
@@ -34,7 +40,9 @@
         "description": "AI-based real-time cybersecurity threat detection system.",
         "start_date": "2024-06",
         "end_date": "2025-01",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/6.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/6.jpg"
+        ],
         "skills": ["AI", "Cybersecurity", "Deep Learning", "Python"],
         "demo_url": "https://cybersecurity.example.com",
         "github_repo": "https://github.com/aashoosharma/cybersecurity-detection"
@@ -44,7 +52,9 @@
         "description": "Complete CI/CD pipeline setup for automated deployment.",
         "start_date": "2024-05",
         "end_date": "2024-11",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/7.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/7.jpg"
+        ],
         "skills": ["DevOps", "AWS", "Jenkins", "Docker", "Kubernetes"],
         "demo_url": "https://cicd.example.com",
         "github_repo": "https://github.com/aashoosharma/devops-cicd"
@@ -54,7 +64,9 @@
         "description": "Voice cloning AI model for real-time voice conversion.",
         "start_date": "2024-09",
         "end_date": "2025-06",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/8.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/8.jpg"
+        ],
         "skills": ["AI", "Deep Learning", "Python", "TensorFlow", "RVC"],
         "demo_url": "https://voiceclone.example.com",
         "github_repo": "https://github.com/aashoosharma/ai-voice-cloning"
@@ -64,7 +76,9 @@
         "description": "A secure blockchain-based voting system.",
         "start_date": "2024-10",
         "end_date": "2025-07",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/9.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/9.jpg"
+        ],
         "skills": ["Blockchain", "Ethereum", "Solidity", "Web3.js"],
         "demo_url": "https://blockchainvote.example.com",
         "github_repo": "https://github.com/aashoosharma/blockchain-voting"
@@ -74,7 +88,9 @@
         "description": "An automation bot for Instagram group management.",
         "start_date": "2024-11",
         "end_date": "2025-04",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/10.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/10.jpg"
+        ],
         "skills": ["Python", "Selenium", "Automation"],
         "demo_url": "https://instabot.example.com",
         "github_repo": "https://github.com/aashoosharma/instagram-bot"
@@ -84,7 +100,9 @@
         "description": "An AI tool to analyze and rank resumes based on job descriptions.",
         "start_date": "2025-01",
         "end_date": "2025-08",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/11.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/11.jpg"
+        ],
         "skills": ["AI", "NLP", "Machine Learning", "Python"],
         "demo_url": "https://resumescreener.example.com",
         "github_repo": "https://github.com/aashoosharma/resume-screener"
@@ -94,7 +112,9 @@
         "description": "A fully serverless web application on AWS using Lambda.",
         "start_date": "2024-12",
         "end_date": "2025-05",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/12.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/12.jpg"
+        ],
         "skills": ["AWS", "Lambda", "DynamoDB", "API Gateway", "Serverless"],
         "demo_url": "https://awsapp.example.com",
         "github_repo": "https://github.com/aashoosharma/aws-serverless-app"
@@ -104,7 +124,9 @@
         "description": "A real-time surveillance system using Raspberry Pi and OpenCV.",
         "start_date": "2024-11",
         "end_date": "2025-03",
-        "image_paths": ["https://img.youtube.com/vi/x2MGH6CvTIc/13.jpg"],
+        "image_paths": [
+            "https://img.youtube.com/vi/x2MGH6CvTIc/13.jpg"
+        ],
         "skills": ["IoT", "OpenCV", "Python", "Raspberry Pi"],
         "demo_url": "https://raspisurveillance.example.com",
         "github_repo": "https://github.com/aashoosharma/raspberrypi-surveillance"
